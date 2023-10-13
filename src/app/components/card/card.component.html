@@ -1,1 +1,16 @@
-<p>card works!</p>
+<a href="" class="card_container">
+    <img 
+    class="card_img"
+    [src]=[gameImg]
+    alt="jogo de futebol"
+    width="500px"
+    >
+    <app-car-label
+    gameLabel="{{gameLabel}}"
+    ></app-car-label>
+    <app-car-pricing
+    gameType="{{ gameType }}"
+    gamePrice="{{ gamePrice }}"
+    ></app-car-pricing>
+
+</a>
